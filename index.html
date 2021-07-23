@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana Translate</title>
-   
-</head>
-<body>
-    <textarea name="English sentence" id="translator-textarea" cols="30" rows="10" placeholder="Enter the sentence in english"></textarea>
-    <button id="translate">Clickme</button>
-    
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>banana Translator 🍌🍌</h1>
+    </header>
+    <main>
+      <textarea
+        name="english-sentence"
+        id="translator-textarea"
+        cols="30"
+        rows="10"
+        placeholder="Enter the sentence in english"
+      ></textarea>
+      <button id="translate">Click to translate</button>
+
+      <div class="output-text">output will come here👇</div>
+
+      <div id="output">Pratyush</div>
+    </main>
+
+    <footer>
+        <div>
+            <h2>about</h2>
+            <p>Are you a fan of minions? Use the translator to convert yout text from English to Minion speak or Banana language🍌</p>
+        </div>
 
 
-
-
-
-
+    </footer>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

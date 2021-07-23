@@ -1,6 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --primary-color:#FBBF24;
+}
+body{
+    background-image: linear-gradient(to bottom right,rgba(203,191,36,0.3) ,rgba(243,249,167,0.2)),url("banana2.jpg");
+    background-position: 50% 50%;
+    background-size:cover;
+    font-family: 'Lato', sans-serif;
+}
+main{
+    height:60vh;
+    
+   
+    background-repeat:no-repeat;
+    margin-top:2rem;
+}
+
+.main-header{
+    background-color: var(--primary-color);
+    height:10vh;
+
+}
+.main-header h1{
+    text-align:center;
+    color:#111827;
+}
+
 #translator-textarea{
     display:block;
-    width:90%;
+    width:80%;
     height:20vh;
+    background-color:transparent;
+    margin:0 auto;
+    padding:2rem 0.2rem;
+    font-size:1.2rem;
 
+}
+
+#output{
+    height:20vh;
+    width:80%;
+    background-color:transparent;
+    text-align:left;
+    padding-top:2rem;
+    border:1px solid rgba(0, 0, 0, 0.421);
+    display:block;
+    margin:2rem auto;
+    font-weight:bold;
+    font-size:1.2rem;
+
+}
+#translate{
+    display:block;
+    padding: 0.5rem 1rem;
+    width:10rem;
+    height:2rem;
+    background-color:var(--primary-color);
+    margin:1rem auto;
+    border-radius:5px 5px;
+    cursor:pointer;
+    font-size: 0.9rem;
+    font-weight:bold;
+
+}
+.output-text{
+    font-size:1.2rem;
+    text-align:center;
+    margin:1rem ;
+    font-weight:bold;
+    font-size:1.2rem;
+
+}
+footer{
+    background-color:var(--primary-color);
+    height:20vh;
+}
+footer div{
+    height:100%;
+    margin-top:2.1rem;
+
+}
+
+footer div h2{
+    text-align:center;
+    padding:1rem;
+
+}
+footer div P{
+    max-width:500px;
+    text-align: center;
+    margin:0px auto;
 }
