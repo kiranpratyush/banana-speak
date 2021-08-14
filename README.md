@@ -9,4 +9,4 @@ It uses Fun Translation api to fetch the result that is converting your language
 4. showing output in browser (textContent)
 5. Making network calls to get relevent data(fetch)
 6. Error handling network calls
-[Try it Out](https://talkingripebanana.netlify.app/)
+## [Try it Out](https://talkingripebanana.netlify.app/)
